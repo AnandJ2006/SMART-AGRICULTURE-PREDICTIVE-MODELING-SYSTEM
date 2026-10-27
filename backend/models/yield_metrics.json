@@ -1,0 +1,50 @@
+{
+    "best_model": "Linear Regression",
+    "mae": 0.43200173563716276,
+    "mse": 0.2875311251408398,
+    "rmse": 0.5362192882961595,
+    "r2": 0.9999939689512958,
+    "cross_validation_rmse": 0.5232876704023667,
+    "training_samples": 1200,
+    "testing_samples": 300,
+    "features": [
+        "Area",
+        "Rainfall",
+        "Temperature",
+        "Fertilizer_Usage",
+        "Pesticide_Usage",
+        "Year",
+        "Crop"
+    ],
+    "feature_importance": null,
+    "comparisons": {
+        "Linear Regression": {
+            "mae": 0.43200173563716276,
+            "mse": 0.2875311251408398,
+            "rmse": 0.5362192882961595,
+            "r2_score": 0.9999939689512958,
+            "cv_rmse": 0.5232876704023667
+        },
+        "Decision Tree": {
+            "mae": 1.4518858455387547,
+            "mse": 3.455728605263621,
+            "rmse": 1.8589590111843837,
+            "r2_score": 0.9999275150906999,
+            "cv_rmse": 2.041994689428435
+        },
+        "Random Forest": {
+            "mae": 1.133908728716456,
+            "mse": 2.0052076597561275,
+            "rmse": 1.4160535511611585,
+            "r2_score": 0.9999579401880333,
+            "cv_rmse": 1.4947294315951347
+        },
+        "Gradient Boosting": {
+            "mae": 1.5915676614594494,
+            "mse": 3.9294982364056765,
+            "rmse": 1.9822962029943145,
+            "r2_score": 0.9999175776353424,
+            "cv_rmse": 2.0247155654096622
+        }
+    }
+}
